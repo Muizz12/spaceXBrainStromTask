@@ -5,7 +5,7 @@ function SearchForm({ setVale, getCapsule }: any) {
     <div className="mt-6 flex items-center justify-center pb-2">
       <input
         type="text"
-        placeholder="Search..."
+        placeholder=" Enter Capsule Serial"
         onChange={(event) => setVale(event.target?.value)}
         className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-space-blue-500"
       />
